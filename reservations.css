@@ -1,0 +1,354 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+.reservation_div{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.reservation_image{
+    position: fixed;
+        width: 10%;
+        height: 98vh;
+        background-image: url('Images/reservation.jpg');
+        background-size: cover;
+        color: white;
+        padding: 200px;
+        background-position: center;
+        text-align: center;
+        /* position: relative; */
+        display: flex;
+        gap: 4cm;
+        padding-left: 15cm;
+    
+    }
+.reservation_image::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    
+
+.reservation_div h3{
+    z-index: 2;
+    position: absolute;
+    margin-top: 3cm;
+    font-size: xx-large;
+    left: 10.5cm;
+}
+
+.reservation_div h1{
+    z-index: 2;
+    position: absolute;
+    margin-top: 5cm;
+    font-size: 350%;
+    left: 8cm;
+    color: rgb(182, 75, 36);
+}
+.form_container{
+    background-color: black;
+    padding-left: 2cm;
+    
+}
+.reservation_form{
+    width: 53.85%;
+    height: 95.8vh;
+    /* overflow: auto; */
+    /* float: right; */
+    margin-left: 23.22cm;
+    border: none;
+    padding-top: 1cm;
+    padding-left: 1.5cm;
+    background-color: black;
+    color: white;
+
+}
+.reservation_form input{
+    width: 20cm;
+    height: 1.5cm;
+    margin-top: 0.4cm;
+    margin-bottom: 0.2cm;
+    border: 1px solid gray;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-left: 0.5cm;
+    color-scheme: dark;
+}
+.reservation_form select{
+  width: 20cm;
+  height: 1.5cm;
+  margin-bottom: 0.2cm;
+  background-color: black;
+  caret-color: dark;
+  color: gray;
+}
+
+select[type=Location]{
+  box-sizing: border-box;
+    border: 1px solid gray;
+    outline: none;
+}
+
+select[type=Location]:focus {
+  border: 2px solid #4726be;
+}
+
+input[type=text] {
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid gray;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 2px solid #064e18;
+  }
+
+  input[type=number] {
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid gray;
+    outline: none;
+  }
+  
+  input[type=number]:focus {
+    border: 2px solid #064e18;
+  }
+  
+  input[type=tel] {
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid gray;
+    outline: none;
+  }
+  
+  input[type=tel]:focus {
+    border: 2px solid #064e18;
+  }
+
+  input[type=email] {
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid gray;
+    outline: none;
+  }
+  
+  input[type=email]:focus {
+    border: 2px solid #064e18;
+  }
+
+  input[type=date] {
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    outline: none;
+  }
+  
+  input[type=date]:focus {
+    border: 2px solid white;
+  }
+
+  input[type=time] {
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    outline: none;
+  }
+  
+  input[type=time]:focus {
+    border: 2px solid white;
+  }
+
+.reservation_form label{
+    margin-top: 1cm ;
+}
+
+.submit{
+    margin-top: 0.5cm;
+    width: 20cm;
+    height: 1.5cm;
+    border-radius: 0.5cm;
+    background-color: white;
+    border: none;
+}
+.submit:hover{
+    background-color: rgb(235, 187, 115);
+}
+.submit:hover{
+    color: #000;
+}
+
+.navigation_bar_reservations{
+    border: solid black;
+    padding: 0.4cm;
+    width: 20cm;
+    border-radius: 1cm;
+    background-color: black;
+    position: absolute;
+    left: 2cm;
+    top:20cm;
+    position: fixed;
+}
+
+.navigation_bar_reservations a{
+    margin-left: 1cm;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navigation_bar_reservations button{
+    padding-right: 1cm;
+    margin-left: 1cm;
+    background-color: grey;
+    height: 1.2cm;
+    border-radius: 1cm;
+    border: none;
+
+}
+.popup{
+  position: relative;
+  display:block;
+}
+.time_content{
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+  bottom: 3cm;
+  width: 5cm;
+  height: 4.5cm;
+  border-radius: 0.2cm;
+  padding: 0.1cm;
+  background-color: white;
+  display: none;
+}
+.popup:hover .time_content{
+  display: block;
+}
+.nav-icons{
+  display: flex;
+  margin-top: 0.3cm;
+  position: absolute;
+  margin-top: 0.3cm;
+  gap: 0.1cm;
+}
+.navigation_bar_reservations .menu-icon{
+  color:white;
+  font-size: x-large;
+  
+}
+.navigation_bar_reservations .time-icon{
+  color: white;
+  margin-left: 0.5cm;
+  font-size: x-large;
+}
+.links{
+  margin-left: 1.2cm;
+}
+
+
+@media only screen and (max-width: 1024px){
+  .reservation_div{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 250vh;
+}
+.reservation_image{
+  position: fixed;
+      width: 10%;
+      height: 5vh;
+      background-image: url('Images/reservation.jpg');
+      background-size: contain;
+      color: white;
+      padding: 200px;
+      text-align: center;
+      /* position: relative; */
+      display: flex;
+      gap: 4cm;
+      padding-left: 15cm;
+  
+  }
+.reservation_image::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      /* bottom: 0; */
+      /* top: 0; */
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+  }
+  .reservation_div h3{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    font-size: xx-large;
+    left: 10cm;
+}
+
+.reservation_div h1{
+    z-index: 2;
+    position: absolute;
+    top: 1cm;
+    font-size: 300%;
+    left: 8cm;
+    color: rgb(182, 75, 36);
+}
+.reservation_form{
+  /* position: absolute; */
+  /* top: 6cm; */
+  /* left: 0; */
+  width: 20%;
+  height: 50vh;
+  /* overflow: auto; */
+  float:bottom;
+  /* margin-left: 30.22cm; */
+  border: none;
+  padding-top: 1cm;
+  padding-left: 1.5cm;
+  background-color: black;
+  color: white;
+
+}
+.reservation_form input{
+  position: absolute;
+  left: 0;
+  width: 10cm;
+  height: 1.5cm;
+  margin-top: 0.4cm;
+  margin-bottom: 0.2cm;
+  border: 1px solid gray;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.reservation_form label{
+  position: absolute;
+  left: 0;
+  top: 2cm;
+  
+}
+.submit{
+  position: absolute;
+  left: 0;
+
+}
+.form_container{
+  position: absolute;
+  position: fixed;
+  top: 10cm;
+  overflow: hidden;
+}
+
+}

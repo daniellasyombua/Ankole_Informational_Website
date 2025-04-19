@@ -1,0 +1,380 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+.contacts {
+    width: 60%;
+    height: 56vh;
+    background-image: url('Images/contacts.jpg');
+    background-size: cover;
+    color: white;
+    padding: 200px;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    display: flex;
+    gap: 4cm;
+    padding-left: 15cm;
+
+}
+
+.contacts::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.contacts h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 90px;
+}
+
+.contacts>h4 {
+    font-size: 35px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+
+}
+.contacts img{
+    width: 15%;
+    position: absolute;
+    top: 0;
+    left: 25cm;
+    
+}
+.kitisuru_contacts{
+    border: solid white 1px;
+    font-size: x-large;
+    width: 10cm;
+    text-align: left;
+    padding-left: 1cm;
+    height: 40vh;
+    z-index: 2;
+    margin-top: 2cm;
+    
+}
+.kilimani_contacts{
+    border: solid white 1px;
+    font-size: x-large;
+    width: 10cm;
+    text-align: left;
+    padding-left: 1cm;
+    z-index: 2;
+    height: 45vh;
+    margin-top: 2cm;
+}
+
+
+.navigation_bar_contacts{
+    border: solid black;
+    padding: 0.4cm;
+    width: 22cm;
+    border-radius: 1cm;
+    background-color: black;
+    position: absolute;
+    left: 14cm;
+    top:20cm;
+    font-size: large;
+}
+
+.navigation_bar_contacts a{
+    margin-left: 1cm;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navigation_bar_contacts button{
+    
+    padding-right: 1cm;
+    margin-left: 1cm;
+    background-color: grey;
+    height: 1.2cm;
+    border-radius: 1cm;
+    border: none;
+}
+
+.popup{
+    position: relative;
+    display:block;
+  }
+  .time_content{
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+    bottom: 3cm;
+    width: 5cm;
+    height: 4.5cm;
+    border-radius: 0.2cm;
+    padding: 0.1cm;
+    background-color: white;
+    display: none;
+  }
+  .popup:hover .time_content{
+    display: block;
+  }
+  .nav-icons{
+    display: flex;
+    position: absolute;
+    margin-top: 0.3cm;
+    gap: 0.2cm;
+    position: fixed;
+
+  }
+  .navigation_bar_home .menu-icon{
+    color:white;
+    font-size: x-large;
+    
+  }
+  .navigation_bar_home .time-icon{
+    color: white;
+    margin-left: 0.9cm;
+    font-size: x-large;
+    margin-right: 0.5cm;
+  }
+  .links{
+    margin-left: 0.5cm;
+  }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    
+    .contacts {
+        width: auto;
+        height: auto;
+        overflow: hidden;;
+        background-image: url('Images/contacts.jpg') no-repeat center center fixed;
+        background-size:contain;
+        color: white;
+        background-repeat: no-repeat;
+        /* padding: 200px; */
+        background-position:center;
+        text-align: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 4cm;
+        padding-left: 15cm;
+    
+    }
+
+    .contacts::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    .contacts h1 {
+        position: relative;
+        z-index: 2;
+        font-size: 90px;
+    }
+    
+    .contacts>h4 {
+        font-size: 35px;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 1cm;
+        margin-top: 1cm;
+    
+    }
+    .contacts img{
+        width: 15%;
+        position: absolute;
+        top: 0;
+        left: 25cm;
+        
+    }
+    .kitisuru_contacts{
+        border: solid white 1px;
+        font-size: x-large;
+        width: 10cm;
+        text-align: left;
+        padding-left: 1cm;
+        height: 40vh;
+        z-index: 2;
+        margin-top: 2cm;
+        
+    }
+    .kilimani_contacts{
+        border: solid white 1px;
+        font-size: x-large;
+        width: 10cm;
+        text-align: left;
+        padding-left: 1cm;
+        z-index: 2;
+        height: 45vh;
+        margin-top: 2cm;
+    }
+    
+    
+    .navigation_bar_contacts{
+        border: solid black;
+        padding: 0.4cm;
+        width: 20cm;
+        border-radius: 1cm;
+        background-color: black;
+        position: absolute;
+        left: 14cm;
+        top:20cm;
+        font-size: large;
+    }
+    
+    .navigation_bar_contacts a{
+        margin-left: 1cm;
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    .navigation_bar_contacts button{
+        padding-right: 1cm;
+        margin-left: 1cm;
+        background-color: grey;
+        height: 1.2cm;
+        border-radius: 1cm;
+        border: none;
+    }
+    
+}
+    
+@media only screen and (max-width: 1024px){
+
+    .contacts {
+        width: 3%;
+        height: 55vh;
+        overflow: hidden;;
+        background-image: url('Images/contacts.jpg') no-repeat center center fixed;
+        background-size:cover;
+        color: white;
+        background-repeat: no-repeat;
+        background-position:center;
+        text-align: center;
+        align-items: start;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+       column-gap: -4cm;
+        
+    
+    }
+
+    .contacts::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    .contacts h1 {
+        position: relative;
+        z-index: 2;
+        font-size: 90px;
+    }
+    
+    .contacts>h4 {
+        font-size: 35px;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 1cm;
+        margin-top: 1cm;
+    
+    }
+    .contacts img{
+        width: 15%;
+        position: absolute;
+        top: 0;
+        left: 25cm;
+        
+    }
+    .kitisuru_contacts{
+        position: absolute;
+        top: 2cm;
+        left: 0;
+        border: solid white 1px;
+        font-size: x-large;
+        width: 8cm;
+        text-align: left;
+        padding-left: 1cm;
+        height: 40vh;
+        z-index: 2;
+        /* margin-top: 2cm; */
+        
+    }
+    .kilimani_contacts{
+        position: absolute;
+        top: 5cm;
+        right: -4.5cm;
+        border: solid white 1px;
+        font-size: x-large;
+        width: 9cm;
+        text-align: left;
+        padding-left: 1cm;
+        z-index: 2;
+        height: 45vh;
+        margin-right: 5cm;
+        /* margin-top: 2cm; */
+    }
+    
+    
+    .navigation_bar_contacts{
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: solid black;
+        /* padding: 0.4cm; */
+        width: 5cm;
+        border-radius: 1cm;
+        background-color: black;
+        position: absolute;
+        left: 14cm;
+        top:20cm;
+        font-size: large;
+    }
+    
+    .navigation_bar_contacts a{
+        margin-left: 1cm;
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    .navigation_bar_contacts button{
+        padding-right: 1cm;
+        margin-left: 1cm;
+        background-color: grey;
+        height: 1.2cm;
+        border-radius: 1cm;
+        border: none;
+    }
+
+
+
+
+
+
+}

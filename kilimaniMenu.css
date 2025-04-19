@@ -1,0 +1,222 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+.kitisurumenu{
+    display: flex;
+    
+}
+.pickfoodkitisuru{
+    background-color: #51a351;
+    width: 50%;
+    margin-left: 25.22cm;
+    position: fixed;
+    height: 100vh;
+    
+    
+}
+.pickfoodkitisuru a{
+    margin-left: 2cm;
+    font-size: large;
+}
+.kitisurumenuitems{
+    
+    position: absolute;
+    overflow: auto;
+    background-color: black;
+    color: white;
+    margin-top: 0.5cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    width: 38%;
+    padding-left: 3cm;
+    margin-top: 2cm;
+    height: 415vh;
+    right: 0;
+    list-style-type:none
+    
+}
+#logo_kitusuru{
+    position: absolute;
+    top: 1.5cm;
+    left: 9cm;
+    z-index: 2;
+    position: fixed;
+}
+.kitisuru_img{
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    background-image: url(Images/menu_img.jpg);
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+}
+.kitisuru_img::after{
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.kitisuru_img h4{
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    top: 10cm;
+    left: 11cm;
+    z-index: 2;
+}
+.kitisuru_img h1{
+    position: absolute;
+    top: 12cm;
+    left:10cm;
+    color: white;
+    font-size: 350%;
+    color: rgb(182, 75, 36);
+    z-index: 2;
+
+}
+
+.navigation_bar_kitisuruMenu{
+    border: solid black;
+    padding: 0.4cm;
+    width: 22cm;
+    border-radius: 1cm;
+    background-color: black;
+    position: absolute;
+    left: 2cm;
+    top:20cm;
+    z-index: 2;
+    position: fixed;
+}
+
+.navigation_bar_kitisuruMenu a{
+    margin-left: 1cm;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navigation_bar_kitisuruMenu button{
+    padding-right: 1cm;
+    margin-left: 1cm;
+    background-color: grey;
+    height: 1.2cm;
+    border-radius: 1cm;
+    border: none;
+}
+.popup{
+    position: relative;
+    display:block;
+  }
+  .time_content{
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+    bottom: 3cm;
+    width: 5cm;
+    height: 4.5cm;
+    border-radius: 0.2cm;
+    padding: 0.1cm;
+    background-color: white;
+    display: none;
+  }
+  .popup:hover .time_content{
+    display: block;
+  }
+  .nav-icons{
+    display: flex;
+    margin-top: 0.3cm;
+  }
+  .navigation_bar_home .menu-icon{
+    color:white;
+    font-size: x-large;
+    
+  }
+  .navigation_bar_home .time-icon{
+    color: white;
+    margin-left: 0.5cm;
+    font-size: x-large;
+  }
+.menufood{
+    display: flex;
+    margin-top: 5cm;
+    margin-top: 0.5cm;
+}
+
+.amount{
+    position: absolute;
+    right: 1.5cm;
+    margin-left: 2cm;
+}
+
+.menu_logo{
+    width: 38%;
+}
+
+.coffee{
+    display: flex;
+    gap: 8.7cm;
+    margin-bottom: 1.5cm;
+}
+.coffee li{
+    margin-top: 0.5cm;
+    list-style-type:none
+}
+.extras{
+    display: flex;
+    margin-top: 1cm;
+    gap: 11cm;
+    margin-left: -11cm;
+    
+}
+.food_soups h3{
+    margin-top: 0.5cm;
+}
+.food_soups h4{
+    margin-top: 0.5cm;
+}
+.extras li{
+    margin-top: 0.5cm;
+    list-style-type:none
+}
+.soups{
+    display: flex;
+    margin-top: 1.5cm;
+    gap: 8.7cm;
+    list-style-type:none
+}
+.juices{
+    display: flex;
+    gap: 11.5cm;
+    margin-top: 2cm;
+    list-style-type: none;
+}
+.juices li{
+    margin-top: 0.5cm;
+    list-style-type:none
+}
+.mocktails{
+    display: flex;
+    gap: 8.7cm;
+    margin-top: 2cm;
+    
+}
+.mocktails li{
+    margin-top: 0.5cm;
+    list-style-type:none
+}
+.milkshakes{
+    display: flex;
+    gap: 9cm;
+    margin-top: 2cm;
+    
+}
+.milkshakes li{
+    margin-top: 0.5cm;
+    list-style-type:none
+}

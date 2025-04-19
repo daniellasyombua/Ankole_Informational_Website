@@ -1,0 +1,544 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+.socials{
+    position: absolute;
+    right: 1cm;
+    top: 1cm;
+    color: rgb(156, 143, 143);
+    font-size: 35px;
+    opacity:70%;
+    z-index: 2;
+  }
+  .socials a{
+    text-decoration: none;
+    color: rgb(156, 143, 143);
+  }
+  .socials .ig{
+    position: fixed;
+    right: 1.5cm;
+  }
+  .socials .fb{
+    position: fixed;
+    right: 0.5cm;
+  }
+   .ig:hover{
+    color: #fdf9f9;
+    
+  }
+  .fb:hover{
+    color: white;
+  }
+.event_locations{
+    display: flex;
+    width: 150%;
+    
+
+}
+.pax{
+    color: rgb(223, 247, 8);
+    z-index: 2;
+    font-size: x-large;
+}
+.pavilion{
+    color: #fcf9f9;
+    z-index: 1;
+    margin-top: 5cm;
+    font-size: 20px;
+}
+.accra{
+
+    width: 30%;
+    height: 54.3vh;
+    background-image: url('Images/accra.jpg');
+    background-size: cover;
+    color: white;
+    padding: 200px;
+    background-position: center;
+    text-align: center;
+    position: relative;   
+    
+}
+
+.accra::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.accra p {
+    font-size: 17px;
+    position: relative;
+    z-index: 2;
+    font-size: x-large;
+    
+}
+.accra h2{
+    z-index: 2;
+    color: white;
+    position: relative;
+    font-size: x-large;
+}
+
+.addis{
+
+    width: 30%;
+    height: 54.3vh;
+    background-image: url('Images/addis.jpg');
+    background-size: cover;
+    color: white;
+    padding: 200px;
+    background-position: center;
+    text-align: center;
+    position: relative;   
+    
+}
+
+.addis::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.addis p {
+    font-size: 17px;
+    position: relative;
+    z-index: 2;
+    font-size: x-large;
+
+}
+.addis h2{
+    z-index: 2;
+    color: white;
+    position: relative;
+    font-size: x-large;
+}
+.zanzibar{
+
+    width: 30%;
+    height: 54.3vh;
+    background-image: url('Images/Zanzibar.jpg');
+    background-size: cover;
+    color: white;
+    padding: 200px;
+    background-position: center;
+    text-align: center;
+    position: relative;   
+    
+}
+
+.zanzibar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.zanzibar p {
+    font-size: 17px;
+    position: relative;
+    z-index: 2;
+    font-size: x-large;
+
+}
+.zanzibar h2{
+    z-index: 2;
+    color: white;
+    position: relative;
+    font-size: x-large;
+}
+.decor{
+
+    width: 30%;
+    height: 54.3vh;
+    background-image: url('Images/decor.jpg');
+    background-size: cover;
+    color: white;
+    padding: 200px;
+    background-position: center;
+    text-align: center;
+    position: relative;   
+    
+}
+
+.decor::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.decor p {
+    font-size: 17px;
+    position: relative;
+    z-index: 2;
+    font-size: x-large;
+}
+.decor h2{
+    z-index: 2;
+    color: white;
+    position: relative;
+    font-size: x-large;
+}
+
+.navigation_bar_events{
+    border: solid black;
+    padding: 0.4cm;
+    width: 20cm;
+    border-radius: 1cm;
+    background-color: black;
+    position: absolute;
+    left: 16cm;
+    top:20cm;
+    z-index: 2;
+    position: fixed;
+}
+
+.navigation_bar_events a{
+    margin-left: 1cm;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navigation_bar_events button{
+    padding-right: 1cm;
+    margin-left: 1cm;
+    background-color: grey;
+    height: 1.2cm;
+    border-radius: 1cm;
+    border: none;
+}
+#ankole_logo{
+    top: 4cm;
+    left: 25.5cm;
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+}
+.w-app{
+    position: absolute;
+    right: 1cm;
+    top: 20cm;
+    font-size: 50px;
+    color: rgb(156, 143, 143);
+    opacity: 60%;
+    z-index: 2;
+    position: fixed;
+  }
+  
+  .w-app:hover{
+    color: #fdf9f9;
+  }
+  .popup{
+    position: relative;
+    display:block;
+  }
+  .time_content{
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+    bottom: 3cm;
+    width: 5cm;
+    height: 4.5cm;
+    border-radius: 0.2cm;
+    padding: 0.1cm;
+    background-color: white;
+    display: none;
+  }
+  .popup:hover .time_content{
+    display: block;
+  }
+  .nav-icons{
+    display: flex;
+    margin-top: 0.3cm;
+    position: absolute;
+    margin-top: 0.3cm;
+    gap: 0.1cm;
+  }
+  .navigation_bar_events .menu-icon{
+    color:white;
+    font-size: x-large;
+    
+  }
+  .navigation_bar_events .time-icon{
+    color: white;
+    margin-left: 0.5cm;
+    font-size: x-large;
+  }
+  .links{
+    margin-left: 1.2cm;
+  }
+
+
+@media only screen and (max-width: 600px){
+    .event_locations{
+        align-items:left;
+        display: flex;
+        flex-direction: column;
+        max-width: 1%;
+        width: 1%;
+    }
+    
+    .pax{
+        color: rgb(223, 247, 8);
+        z-index: 2;
+        font-size: large;
+    }
+    .pavilion{
+        z-index: 1;
+    }
+    .accra{
+    
+        width: 1%;
+        height: 15vh;
+        background-image: url('Images/accra.jpg');
+        background-repeat: no-repeat;
+        background-size:85%;
+        color: white;
+        background-position:5%;
+        text-align: center;
+        position: relative;   
+        
+    }
+    
+    .accra::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+    }
+    
+    .accra p {
+        font-size: 10px;
+        position: relative;
+        z-index: 2;
+        font-size: large;
+        
+    }
+    .accra h2{
+        z-index: 2;
+        color: white;
+        position: relative;
+        font-size: x-large;
+    }
+    
+    .addis{
+    
+        width: 1%;
+        background-image: url('Images/addis.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        color: white;
+        padding: 200px;
+        background-position:35%;
+        text-align: left;
+        position: relative;   
+        
+    }
+    
+    .addis::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+    }
+    .addis p {
+        font-size: 17px;
+        position: relative;
+        z-index: 2;
+        font-size: x-large;
+    
+    }
+    .addis h2{
+        z-index: 2;
+        color: white;
+        position: relative;
+        font-size: x-large;
+    }
+    .zanzibar{
+    
+        width: 1%;
+        height: 54.3vh;
+        background-image: url('Images/Zanzibar.jpg');
+        background-size: contain;
+        color: white;
+        padding: 200px;
+        background-position: center;
+        text-align: center;
+        position: relative;   
+        
+    }
+    
+    .zanzibar::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+    }
+    .zanzibar p {
+        font-size: 17px;
+        position: relative;
+        z-index: 2;
+        font-size: x-large;
+    
+    }
+    .zanzibar h2{
+        z-index: 2;
+        color: white;
+        position: relative;
+        font-size: x-large;
+    }
+    .decor{
+    
+        width: 1%;
+        height: 54.3vh;
+        background-image: url('Images/decor.jpg');
+        background-size:contain;
+        color: white;
+        padding: 200px;
+        background-position: center;
+        text-align: center;
+        position: relative;   
+        
+    }
+    
+    .decor::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+    }
+    .decor p {
+        font-size: 17px;
+        position: relative;
+        z-index: 2;
+        font-size: x-large;
+    }
+    .decor h2{
+        z-index: 2;
+        color: white;
+        position: relative;
+        font-size: x-large;
+    }
+    
+    .navigation_bar_events{
+        border: solid black;
+        padding: 0.4cm;
+        width: 19cm;
+        border-radius: 1cm;
+        background-color: black;
+        position: absolute;
+        left: 16cm;
+        top:20cm;
+        z-index: 2;
+        position: fixed;
+    }
+    
+    .navigation_bar_events a{
+        margin-left: 1cm;
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    .navigation_bar_events button{
+        padding-right: 1cm;
+        margin-left: 1cm;
+        background-color: grey;
+        height: 1.2cm;
+        border-radius: 1cm;
+        border: none;
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+    .event_locations{
+        display: flex;
+        flex-direction: column;
+        width: 160%;
+        
+    
+    }
+
+    .navigation_bar_events{
+        border: solid black;
+        padding: 0.4cm;
+        width: 19cm;
+        border-radius: 1cm;
+        background-color: black;
+        position: absolute;
+        left: 0.2cm;
+        top:20cm;
+        z-index: 2;
+        position: fixed;
+        
+    }
+    
+    .navigation_bar_events a{
+        margin-left: 1cm;
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    .navigation_bar_events button{
+        padding-right: 1cm;
+        margin-left: 1cm;
+        background-color: grey;
+        height: 1.2cm;
+        border-radius: 1cm;
+        border: none;
+    }
+
+
+
+
+
+
+
+}
