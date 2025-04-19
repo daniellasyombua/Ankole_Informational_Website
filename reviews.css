@@ -167,6 +167,7 @@
     top: 3cm;
     
   }
-  .slide h2{
-    
+  .contacts a{
+    text-decoration: none;
+    color: white;
   }
