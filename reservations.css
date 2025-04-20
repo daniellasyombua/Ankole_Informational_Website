@@ -258,6 +258,79 @@ input[type=text] {
 
 @media only screen and (max-width: 1024px){
   .reservation_div{
+    flex-direction: column;
+    align-items: center;
+  }
+  .reservation_image{
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+  }
+  .reservation_div h3.reservation_div h1{
+    position: static;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+  .form_container{
+  padding-left: 0;
+  width: 100%;
+  }
+  .reservation_form{
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  .reservation_form input, .reservation_formselect, .submit{
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .navigation_bar_reservations{
+    position: static;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+  }
+  .nav-icons{
+    justify-content: center;
+    position: static;
+    margin-bottom: 0.5rem;
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navigation_bar_reservations a, .navigation_bar_reservations button{
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  .popup .time_content{
+    bottom: auto;
+    top: 2rem;
+    right: 0;
+    left: auto;
+    width: 90%;
+    position: absolute;
+  } 
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+  .reservation_div{
     display: flex;
     width: 100%;
     position: relative;

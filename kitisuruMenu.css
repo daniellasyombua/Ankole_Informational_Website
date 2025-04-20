@@ -15,6 +15,7 @@
     margin-left: 25.22cm;
     position: fixed;
     height: 100vh;
+    color: white;
         
 }
 .pickfoodkitisuru a{
@@ -39,6 +40,9 @@
     /* overflow-x:hidden;  */
     /* overflow-y: scroll; */
     
+}
+.beverages{
+    color: red;
 }
 #logo_kitusuru{
     position: absolute;
@@ -148,7 +152,7 @@
 .menufood{
     display: flex;
     margin-top: 1cm;
-    margin-top: 0.5cm;
+    margin-top: 0.7cm;
 }
 
 .amount{
@@ -160,7 +164,17 @@
 .menu_logo{
     width: 38%;
 }
-
+.extras_food{
+    margin-left: -0.7cm;
+}
+.food_soups h3{
+    font-size: x-large;
+    padding-top: 0.7cm;
+}
+.food_soups h4{
+    font-size: x-large;
+    color: rgb(226, 39, 39);
+}
 .coffee{
     display: flex;
     gap: 8.7cm;
@@ -192,6 +206,11 @@
     gap: 8.7cm;
     list-style-type:none
 }
+#juice{
+    font-size: x-large;
+    color: rgb(226, 39, 39);
+    padding-top: 0.9cm;
+}
 .juices{
     display: flex;
     gap: 11.5cm;
@@ -222,3 +241,9 @@
     margin-top: 0.5cm;
     list-style-type:none
 }
+
+
+
+
+
+
