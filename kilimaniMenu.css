@@ -16,6 +16,24 @@
     
     
 }
+.beverages{
+    color: red;
+}
+.food_soups h4{
+    font-size: x-large;
+    color: rgb(226, 39, 39);
+}
+#juice{
+    font-size: x-large;
+    color: rgb(226, 39, 39);
+    padding-top: 0.9cm;
+}
+.food_soups h3{
+    margin-top: 0.5cm;
+}
+.food_soups h4{
+    margin-top: 0.5cm;
+}
 .pickfoodkitisuru a{
     margin-left: 2cm;
     font-size: large;
